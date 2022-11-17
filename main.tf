@@ -1,5 +1,5 @@
-resource "google_storage_bucket" "franklx2_gcs_bucket_0001" {
-  name = "test-bucket-random-001123"
+resource "google_storage_bucket" "gcs_bucket" {
+  name = "franklx2_gcs_bucket-0001"
   location      = "US"
   force_destroy = true
 
